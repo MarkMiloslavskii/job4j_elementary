@@ -12,6 +12,7 @@ class ConverterTest {
         float output = Converter.rubleToEuro(input);
         float value = 0.0001f;
         assertThat(output).isEqualTo(expected, withPrecision(value));
+        System.out.println(output);
     }
     @Test
     void whenConvert225RblThen3Dollar() {
@@ -20,5 +21,6 @@ class ConverterTest {
         float output = Converter.rubleToDollar(input);
         float value = 0.0001f;
         assertThat(output).isEqualTo(expected, withPrecision(value));
+        System.out.println(output);
     }
 }
