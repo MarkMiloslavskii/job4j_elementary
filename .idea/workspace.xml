@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c70e37f1-f937-4453-bd4b-0cdd008812eb" name="Changes" comment="d">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/job4j/converter/Converter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/job4j/converter/ConverterTest.java" afterDir="false" />
+    <list default="true" id="c70e37f1-f937-4453-bd4b-0cdd008812eb" name="Changes" comment="1.1. Что такое import [#505278]">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -48,11 +46,13 @@
   "keyToString": {
     "Application.Info.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MathCalculator.executor": "Run",
     "Application.Multiple.executor": "Run",
     "Application.StudentInfo.executor": "Run",
     "JUnit.ConverterTest.executor": "Run",
     "JUnit.ConverterTest.whenConvert140RblThen2Euro.executor": "Run",
     "JUnit.ConverterTest.whenConvert180RblThen2Euro.executor": "Run",
+    "JUnit.ConverterTest.whenConvert225RblThen3Dollar.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
@@ -73,13 +73,13 @@
       <recent name="ru.job4j.converter" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ConverterTest.whenConvert225RblThen3Dollar">
-    <configuration name="Info" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.Info" />
+  <component name="RunManager" selected="Application.MathCalculator">
+    <configuration name="MathCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.calculator.MathCalculator" />
       <module name="elementary" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.job4j.*" />
+          <option name="PATTERN" value="ru.job4j.calculator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MathCalculator" />
         <item itemvalue="JUnit.ConverterTest.whenConvert225RblThen3Dollar" />
         <item itemvalue="JUnit.ConverterTest.whenConvert180RblThen2Euro" />
         <item itemvalue="JUnit.ConverterTest.whenConvert140RblThen2Euro" />
         <item itemvalue="JUnit.ConverterTest" />
-        <item itemvalue="Application.Info" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +247,39 @@
       <option name="project" value="LOCAL" />
       <updated>1726487463473</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Модульные тесты [#505277]">
+      <option name="closed" value="true" />
+      <created>1726489889172</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1726489889172</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Модульные тесты [#505277]">
+      <option name="closed" value="true" />
+      <created>1726490085158</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1726490085158</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Модульные тесты [#505277]">
+      <option name="closed" value="true" />
+      <created>1726490133617</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1726490133617</updated>
+    </task>
+    <task id="LOCAL-00013" summary="1.1. Что такое import [#505278]">
+      <option name="closed" value="true" />
+      <created>1726495295644</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1726495295644</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -256,6 +288,8 @@
     <MESSAGE value="Разбор первой программы по &quot;взрослому&quot; [#505151]" />
     <MESSAGE value="Заголовок в файле java [#505272]" />
     <MESSAGE value="d" />
-    <option name="LAST_COMMIT_MESSAGE" value="d" />
+    <MESSAGE value="Модульные тесты [#505277]" />
+    <MESSAGE value="1.1. Что такое import [#505278]" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.1. Что такое import [#505278]" />
   </component>
 </project>
