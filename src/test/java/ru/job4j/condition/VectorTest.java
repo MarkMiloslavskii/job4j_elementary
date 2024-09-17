@@ -29,4 +29,12 @@ class VectorTest {
         String output = Vector.addVectors(x1, y1, x2, y2);
         assertThat(output).isEqualTo(expected);
     }
+
+    @Test
+    void whenVectorsMinus14And78ThenResultMinus64() {
+        int x1 = -1, y1 = -4, x2 = 7, y2 = 8;
+        String expected = "(6, 4)";
+        String output = Vector.addVectors(x1, y1, x2, y2);
+        assertThat(output).isEqualTo(expected);
+    }
 }

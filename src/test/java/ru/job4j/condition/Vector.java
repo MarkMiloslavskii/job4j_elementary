@@ -12,8 +12,10 @@ public class Vector {
         String result = addVectors(1, 2, 3, 4);
         String result1 = addVectors(-1, -2, 3, 4);
         String result2 = addVectors(-1, -2, -3, -4);
+        String result3 = addVectors(-1, -4, 7, 8);
         System.out.println("result (1, 2) + (3, 4) = " + result);
         System.out.println("result (-1, -2) + (3, 4) = " + result1);
         System.out.println("result (-1, -2) + (-3, -4) = " + result2);
+        System.out.println("result (-1, -2) + (-3, -4) = " + result3);
     }
 }
