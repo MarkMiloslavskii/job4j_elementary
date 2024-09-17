@@ -2,12 +2,10 @@ package ru.job4j.math;
 
 public class MathFunction {
 
-    // Метод для умножения
     public static double multiply(double first, double second) {
         return first * second;
     }
 
-    // Метод для сложения
     public static double sum(double first, double second) {
         return first + second;
     }
