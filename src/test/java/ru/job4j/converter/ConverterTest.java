@@ -14,6 +14,7 @@ class ConverterTest {
         assertThat(output).isEqualTo(expected, withPrecision(value));
         System.out.println(output);
     }
+
     @Test
     void whenConvert225RblThen3Dollar() {
         float input = 225;
