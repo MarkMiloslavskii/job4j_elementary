@@ -35,8 +35,8 @@ class RectangleTest {
     @Test
     void whenLength1AndWidth2ThenDiagonal2Dot24() {
         double length = 1;
-        double width = 2;
-        double expected = 2.24;
+        double width = 3;
+        double expected = 3.16;
         double output = Rectangle.diagonal(length, width);
         assertThat(output).isEqualTo(expected, withPrecision(0.01));
     }
