@@ -1,7 +1,6 @@
 package ru.job4j.loop;
 
 import org.junit.jupiter.api.Test;
-import ru.job4j.condition.Rectangle;
 
 import static org.assertj.core.api.Assertions.*;
 
@@ -47,7 +46,7 @@ public class CounterTest {
     void whenStart0finish100Then5050() {
         int start = 0;
         int finish = 100;
-        int expected = 0;
+        int expected = 5050;
         int output = Counter.sum(start, finish);
         assertThat(output).isEqualTo(expected);
     }
