@@ -22,14 +22,6 @@ class FactorialTest {
     }
 
     @Test
-    void whenCalculateFactorialForMinus3ThenZero() {
-        int expected = 0;
-        int number = -3;
-        int output = Factorial.calculate(number);
-        assertThat(output).isEqualTo(expected);
-    }
-
-    @Test
     void whenCalculateFactorialFor8Then40320() {
         int expected = 40320;
         int number = 8;

@@ -2,10 +2,6 @@ package ru.job4j.loop;
 
 public class Factorial {
     public static int calculate(int number) {
-        if (number < 0) {
-            System.out.print("Number must be a positive integer greater than ");
-            return 0;
-        }
         int result = 1;
         for (int i = 2; i <= number; i++) {
             result = result * i;
@@ -16,7 +12,6 @@ public class Factorial {
     public static void main(String[] args) {
         System.out.println(calculate(5));
         System.out.println(calculate(0));
-        System.out.println(calculate(-3));
         System.out.println(calculate(8));
 
     }
