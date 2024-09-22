@@ -7,8 +7,8 @@ public class Savings {
         double rate = percent / 100;
 
         do {
-            total = total + annualDeposit;
             total = total + total * rate;
+            total = total + annualDeposit;
             years++;
         } while (total < goal);
 
