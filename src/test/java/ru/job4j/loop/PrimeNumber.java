@@ -1,17 +1,8 @@
 package ru.job4j.loop;
 
-public class PrimeNumber {
+import static ru.job4j.loop.CheckPrimeNumber.check;
 
-    public static boolean check(int number) {
-        boolean result = number > 1;
-        for (int i = 2; i <= Math.sqrt(number); i++) {
-            if (number % i == 0) {
-                result = false;
-                break;
-            }
-        }
-        return result;
-    }
+public class PrimeNumber {
 
     public static int calc(int finish) {
         int count = 0;
