@@ -24,11 +24,11 @@ public class FindLoop {
     }
 
     public static void main(String[] args) {
-         int i = indexOf(new int[] {5, 10, 3}, 5);
-         System.out.println(i);
-        int j = indexOf(new int[] {5, 12, 3}, 10);
-         System.out.println(j);
-        int k = indexOf(new int[] {3, 2, 1}, 1);
+        int i = indexOf(new int[]{5, 10, 3}, 5);
+        System.out.println(i);
+        int j = indexOf(new int[]{5, 12, 3}, 10);
+        System.out.println(j);
+        int k = indexOf(new int[]{3, 2, 1}, 1);
         System.out.println(k);
     }
 }
