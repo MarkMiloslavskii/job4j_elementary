@@ -17,7 +17,6 @@ public class SimpleStringEncoder {
                 counter = 1;
             }
         }
-
         result.append(symbol);
         if (counter > 1) {
             result.append(counter);

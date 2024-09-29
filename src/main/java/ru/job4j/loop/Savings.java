@@ -5,13 +5,11 @@ public class Savings {
         int years = 0;
         double total = 0;
         double rate = percent / 100;
-
         do {
             total = total + total * rate;
             total = total + annualDeposit;
             years++;
         } while (total < goal);
-
         return years;
     }
 

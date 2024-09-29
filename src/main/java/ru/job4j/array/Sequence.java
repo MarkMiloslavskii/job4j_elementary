@@ -13,7 +13,6 @@ public class Sequence {
         array[2][1] = 8;
         array[2][2] = 9;
         System.out.println(array[0][0]);
-
         int[][] data = {{1}, {1, 2}, {1, 2, 3}, {1, 2, 3, 4}};
         for (int[] datum : data) {
             System.out.println("Размер вложенного массива равен: " + datum.length);
