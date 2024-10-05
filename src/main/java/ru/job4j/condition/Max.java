@@ -6,17 +6,20 @@ public class Max {
         return (a > b) ? a : b;
     }
 
-    public double getMax(int a, double b) {
+    public double getMax(double a, double b) {
         return (a > b) ? a : b;
     }
 
     public double getMax(int a, int b, int c) {
-        return (a > b) ? ((a > c) ? a : c) : ((b > c) ? b : c);
+        return getMax(getMax(a, b), c);
     }
 
-    public double getMax(int a, double b, double c, double d) {
-        return (a > b) ? ((a > c) ? ((a > d) ? a : d) : ((c > d) ? c : d)) : ((b > c)
-                ? ((b > d) ? b : d) : ((c > d) ? c : d));
+    public double getMax(double a, double b, double c) {
+        return getMax(getMax(a, b), c);
+    }
+
+    public double getMax(double a, double b, double c, double d) {
+        return getMax(getMax(a, b, c), d);
     }
 
     public static void main(String[] args) {
